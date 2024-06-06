@@ -2,7 +2,7 @@
 ### Whiteboard Images
 
 ### Challenge A: Array Reversal
-![Array Reversal Whiteboard]((link_to_image)
+![Array Reversal Whiteboard](images/code-challenge1/cc1Miro.png)
 
 ### Challenge B: Most Frequent Number
-![Most Frequent Number Whiteboard]((images/cc1 Mirro.png)
+![Most Frequent Number Whiteboard](images/code-challenge2/cc2Miro.png)
