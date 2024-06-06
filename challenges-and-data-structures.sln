@@ -11,6 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{182BC0
 		challenges-and-data-structures\cc2 Miro.png = challenges-and-data-structures\cc2 Miro.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "code-challenge1", "code-challenge1", "{170A5386-7FA3-47CA-8D9F-C2440BC2024B}"
+	ProjectSection(SolutionItems) = preProject
+		challenges-and-data-structures\cc1 Miro.png = challenges-and-data-structures\cc1 Miro.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +29,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{170A5386-7FA3-47CA-8D9F-C2440BC2024B} = {182BC04F-36F8-4334-A253-68615E5DE40B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EE6B444-27B9-49ED-AAD5-AD1572B97549}
