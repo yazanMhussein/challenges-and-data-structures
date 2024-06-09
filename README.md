@@ -1,9 +1,8 @@
 # challenges-and-data-structures
-# challenges-and-data-structures
 ### Whiteboard Images
 
 ### Challenge A: Array Reversal
-![Array Reversal Whiteboard](link_to_image.png)
+![Array Reversal Whiteboard](cc1Miro.png)
 
 ### Challenge B: Most Frequent Number
-![Most Frequent Number Whiteboard](link_to_image)
+![Most Frequent Number Whiteboard](cc2Miro.png)
