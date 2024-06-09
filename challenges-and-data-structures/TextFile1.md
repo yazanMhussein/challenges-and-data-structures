@@ -5,4 +5,4 @@
 ![Array Reversal Whiteboard](link_to_image)
 
 ### Challenge B: Most Frequent Number
-![Most Frequent Number Whiteboard](./images/code-challenge2/cc2Miro.png)
+![Most Frequent Number Whiteboard](link_to_image)
