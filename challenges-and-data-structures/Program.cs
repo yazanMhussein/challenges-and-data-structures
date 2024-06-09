@@ -6,7 +6,8 @@ namespace ConsoleApp11
     {
         static void Main(string[] args)
         {
-            // this is array variable  the size of it is 5 it's a list of number they're 1 to 5 
+
+            //this is array variable  the size of it is 5 it's a list of number they're 1 to 5
             int[] Array = new int[5] { 1, 2, 3, 4, 5 };
             // this is variable  called arraybackward we are using it to save the methods ArrayReversal that has parameter with the array it type. we are going to used the variable to called it latter on.   
             int[] arraybackwards = ArrayReversal(Array);
@@ -15,12 +16,41 @@ namespace ConsoleApp11
 
 
             // this is array variable  the size of it is 17 it's a list of random numbers
-            int[] ArrayOfnumbers = new int[17] { 62791, 2,3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 };
+            int[] ArrayOfnumbers = new int[17] { 62791, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 };
             // this is variable  called MostFrequentNumber we are using it to save the methods MostFrequent that has parameter with the array int type. we are going to used the variable to called it latter on.
             int mostFrequentNumber = MostFrequent(ArrayOfnumbers);
             // we are using the Console.Write methods to show it on window prompt with the string Most Frequent Number: and add to it the variable called MostFrequentNumber.
             Console.WriteLine("Most Frequent Number: " + mostFrequentNumber);
+
+            //here is where im defending the values that im going to pass to the parameter MaximumArrayOfNumber
+            int[] MaximumArrayOfNumber = new int[5] { 7, 9, 13, 25, 5 };
+            // here is where im calling the method
+            int maximumValue = MaximumValue(MaximumArrayOfNumber);
+            //here im print out to the console the maximum value in the array
+            Console.WriteLine("The maximum value in the array is: " + maximumValue);
         }
+
+        // this is a pubile static int of array methods called MaximumValue that has parameter with the array int type and latter on i will return it to the main methods.
+        public static int MaximumValue(int[] MaximumArrayOfNumber)
+        {
+            //here is im using a veriable called maximumValue to hold the value of MaximumArrayOfNumber and latter on im going to return it to the main  
+            int maximumValue = MaximumArrayOfNumber[0];
+            // here where im looping thourgth the array of numbers
+            for (int i = 0; i < MaximumArrayOfNumber.Length; i++)
+            {
+                // here im using the loop value to test to see if i got the maximum number
+                if (MaximumArrayOfNumber[i] > maximumValue)
+                {
+                    // here is where im storing im maximum number inside my verible called maximumValue
+                    maximumValue = MaximumArrayOfNumber[i];
+                }
+            }
+            //last here is where im return the value to the main
+            return maximumValue;
+        }
+
+
+
         // this is a pubile static int of array methods called ArrayReversal that has parameter with the array int type and latter on i will return it to the main methods.
         public static int[] ArrayReversal(int[] Array)
         {
@@ -29,7 +59,7 @@ namespace ConsoleApp11
             // this is a int variable type called value it right now holds the value of 0 but latter on we are going to use it by put it inside of my variable called reverseArr.
             int value = 0;
             // this is a for loop that im using to loop through the array length start with the last number.
-            for (int i = Array.Length-1; i >=0; i--)
+            for (int i = Array.Length - 1; i >= 0; i--)
             {
                 // this is where meet my variables again, here im using the reverseArr to put inside the value of the number that add each time and im taking the variable
                 // Array from the loop to get each the numbers.  
@@ -40,8 +70,8 @@ namespace ConsoleApp11
             // at end im returning all of my work to the main method
             return reverseArr;
         }
-       
-        
+
+
         // this is a pubile static int of array methods called mostFrequent that has parameter with the array int type and latter on i will return it to the main methods.
         public static int MostFrequent(int[] ArrayOfnumbers)
         {
@@ -75,5 +105,7 @@ namespace ConsoleApp11
             // at end im returning all of my work to the main method
             return mostFrequent;
         }
+
     }
+
 }
