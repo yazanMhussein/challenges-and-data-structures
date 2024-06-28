@@ -6,22 +6,12 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "challenges-and-data-structures", "challenges-and-data-structures\challenges-and-data-structures.csproj", "{7BB0B15D-4995-4F5F-9752-F0797490FE8C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenges", "Challenges", "{6E9EE799-A291-45FF-9C6A-681C852E107D}"
-	ProjectSection(SolutionItems) = preProject
-		challenges-and-data-structures\TextFile1.md = challenges-and-data-structures\TextFile1.md
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Duplicates", "Find_Duplicates\Find_Duplicates.csproj", "{5B9CB820-682F-4FAD-822B-4BF2C8905556}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Find-Duplicates", "Find-Duplicates", "{9A02DD1B-90E5-4932-82CA-BF1840EC2F49}"
-	ProjectSection(SolutionItems) = preProject
-		challenges-and-data-structures\TextFile1.md = challenges-and-data-structures\TextFile1.md
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{182BC04F-36F8-4334-A253-68615E5DE40B}"
-	ProjectSection(SolutionItems) = preProject
-		challenges-and-data-structures\cc1 Miro.png = challenges-and-data-structures\cc1 Miro.png
-		challenges-and-data-structures\cc2 Miro.png = challenges-and-data-structures\cc2 Miro.png
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
