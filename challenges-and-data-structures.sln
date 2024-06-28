@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "challenges-and-data-structures", "challenges-and-data-structures\challenges-and-data-structures.csproj", "{7BB0B15D-4995-4F5F-9752-F0797490FE8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "challenges-and-data-structures", "challenges-and-data-structures\challenges-and-data-structures.csproj", "{7BB0B15D-4995-4F5F-9752-F0797490FE8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenges", "Challenges", "{6E9EE799-A291-45FF-9C6A-681C852E107D}"
+	ProjectSection(SolutionItems) = preProject
+		challenges-and-data-structures\TextFile1.md = challenges-and-data-structures\TextFile1.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Duplicates", "Find_Duplicates\Find_Duplicates.csproj", "{5B9CB820-682F-4FAD-822B-4BF2C8905556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Find-Duplicates", "Find-Duplicates", "{9A02DD1B-90E5-4932-82CA-BF1840EC2F49}"
+	ProjectSection(SolutionItems) = preProject
+		challenges-and-data-structures\TextFile1.md = challenges-and-data-structures\TextFile1.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{182BC04F-36F8-4334-A253-68615E5DE40B}"
 	ProjectSection(SolutionItems) = preProject
@@ -21,9 +33,17 @@ Global
 		{7BB0B15D-4995-4F5F-9752-F0797490FE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BB0B15D-4995-4F5F-9752-F0797490FE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BB0B15D-4995-4F5F-9752-F0797490FE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9CB820-682F-4FAD-822B-4BF2C8905556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9CB820-682F-4FAD-822B-4BF2C8905556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9CB820-682F-4FAD-822B-4BF2C8905556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9CB820-682F-4FAD-822B-4BF2C8905556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B9CB820-682F-4FAD-822B-4BF2C8905556} = {9A02DD1B-90E5-4932-82CA-BF1840EC2F49}
+		{9A02DD1B-90E5-4932-82CA-BF1840EC2F49} = {6E9EE799-A291-45FF-9C6A-681C852E107D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EE6B444-27B9-49ED-AAD5-AD1572B97549}
