@@ -1,8 +1,13 @@
-# challenges-and-data-structures
 ### Whiteboard Images
 
-### Challenge A: Array Reversal
-![Array Reversal Whiteboard]((link_to_image)
+### Challenge 06-A: Common Elements
+![Common-Elements](whiteboardImage.png)
 
-### Challenge B: Most Frequent Number
-![Most Frequent Number Whiteboard]((images/cc1 Mirro.png)
+### Code image 
+![Code](Challenges/Common-Elements/code.png)
+
+### Console image 
+![Console](Challenges/Common-Elements/console.png)
+
+### Code and Console
+![CodeandConsole.png](Challenges/Common-Elements/codeandconsole.png)
