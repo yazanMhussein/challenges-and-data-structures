@@ -1,17 +1,12 @@
 # challenges-and-data-structures
 ### Whiteboard Images
+![ReverseWords Whiteboard](Challenges/Reverse-Words/whiteboard.png)
 
-### Challenge A: Array Reversal
-![Array Reversal Whiteboard](challenges-and-data-structures/cc1Miro.png)
+### Code
+![ReverseWords  Code](Challenges/Reverse-Words/code.png)
 
-### Challenge B: Most Frequent Number
-![Most Frequent Number Whiteboard](challenges-and-data-structures/cc2Miro.png)
+### Console
+![ReverseWords Console](Challenges/Reverse-Words/console.png)
 
-### Challenge C: RemoveMiddleValue
-![RemoveMiddleValue Whiteboard](challenges-and-data-structures/cc3Miro.png)
-
-
-### Challenge D: Insert Middle Value 
-![InsertMiddleValue Whiteboard](challenges-and-data-structures/cc4Miro.png)
-
-
+### Code And Console
+![ReverseWords Code And Console](Challenges/Reverse-Words/codeandconsole.png)
