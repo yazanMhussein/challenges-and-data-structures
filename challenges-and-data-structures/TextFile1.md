@@ -1,12 +1,13 @@
 # challenges-and-data-structures
 ### Whiteboard Images
+![ReverseWords Whiteboard](Challenges/Reverse-Words/whiteboard.png)
 
-### Challenge A: Array Reversal
-![Array Reversal Whiteboard](cc1Miro.png)
+### Code
+![ReverseWords  Code](Challenges/Reverse-Words/code.png)
 
-### Challenge B: Most Frequent Number
-![Most Frequent Number Whiteboard](cc2Miro.png)
 
-### Challenge 02: Maximum Value
-##Write a function called MaximumValue that accepts an array of integers as its parameter. Without utilizing any of the built-in methods provided by the language, the function should return the maximum value in the array.
-![Maximum-Value](cc02.png)
+### Console
+![ReverseWords Console](Challenges/Reverse-Words/console.png)
+
+### Code And Console
+![ReverseWords Code And Console](Challenges/Reverse-Words/codeandconsole.png)
