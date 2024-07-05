@@ -1,8 +1,12 @@
 # challenges-and-data-structures
 ### Whiteboard Images
+![ReverseWords Whiteboard](Challenges/Reverse-Words/whiteboard.png)
 
-### Challenge A: Array Reversal
-![Array Reversal Whiteboard](cc1Miro.png)
+### Code
+![ReverseWords  Code](Challenges/Reverse-Words/code.png)
 
-### Challenge B: Most Frequent Number
-![Most Frequent Number Whiteboard](cc2Miro.png)
+### Console
+![ReverseWords Console](Challenges/Reverse-Words/console.png)
+
+### Code And Console
+![ReverseWords Code And Console](Challenges/Reverse-Words/codeandconsole.png)
