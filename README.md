@@ -14,4 +14,7 @@
 ### Challenge D: Insert Middle Value 
 ![InsertMiddleValue Whiteboard](challenges-and-data-structures/cc4Miro.png)
 
+### Linked List Merge Sorted Lists
+![Linked List Merge Sorted Lists](challenges-and-data-structures/whiteboard.png)
+
 
