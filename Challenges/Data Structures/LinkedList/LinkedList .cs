@@ -1,17 +1,11 @@
 ﻿using System;
 
 namespace LinkedList
-{
-    public class LinkedList
-    {
-        public Node head;
-
-        public void InsertToHead(Node current)
-        {
-            current.Next = head;
-            head = current;
-        }
-
+{public class LinkedList
+    { public Node head;
+      public void InsertToHead(Node current)
+        {current.Next = head;
+            head = current;}
         public void InsertEnd(Node current)
         {
             Node node = head;
@@ -24,11 +18,9 @@ namespace LinkedList
             {
                 node = node.Next;
             }
-
             node.Next = current;
             current.Next = null;
         }
-
         public bool Includes(int data)
         {
             Node current = head;
@@ -52,7 +44,6 @@ namespace LinkedList
                 head = head.Next;
                 return;
             }
-
             Node current = head;
             while (current.Next != null)
             {
@@ -64,7 +55,6 @@ namespace LinkedList
                 current = current.Next;
             }
         }
-
         public void PrintList()
         {
             Node current = head;
