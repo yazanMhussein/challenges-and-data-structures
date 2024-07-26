@@ -1,9 +1,6 @@
 ﻿using System;
 
 namespace Slack_QueueExample;
-
-
-
 public class Node
 {
     public int Data { get; set; }

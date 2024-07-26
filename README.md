@@ -17,4 +17,9 @@
 ### Linked List Merge Sorted Lists
 ![Linked List Merge Sorted Lists](challenges-and-data-structures/whiteboard.png)
 
+### Stack
+![Stack Whiteboard](challenges-and-data-structures/Data Structures/SlackAndQueueExample/stackwhiteboarddone.png)
+
+### Queue
+![Queue Whiteboard](challenges-and-data-structures/Data Structures/SlackAndQueueExample/Queuewhiteboarddone.png)
 
