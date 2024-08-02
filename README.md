@@ -18,7 +18,7 @@
 ![Linked List Merge Sorted Lists](challenges-and-data-structures/whiteboard.png)
 
 ### Stack
-![Stack](challenges-and-data-structures/DataStructures/SlackAndQueueExample/SlackAndQueueFristCodeC/stackwhiteboarddone.png)
+![Stack](challenges/DataStructures/SlackAndQueueExample/SlackAndQueueFristCodeC/stackwhiteboarddone.png)
 
 ### Queue
 ![Queue](challenges-and-data-structures/Data Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/Queuewhiteboarddone.png)
