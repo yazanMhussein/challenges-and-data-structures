@@ -20,6 +20,7 @@
 ### Stack
 ![Stack](challenges/DataStructures/SlackAndQueueExample/SlackAndQueueFristCodeC/stackwhiteboarddone.png)
 
+
 ### Queue
 ![Queue](challenges-and-data-structures/Data Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/Queuewhiteboarddone.png)
 
