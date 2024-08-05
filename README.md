@@ -19,12 +19,11 @@
 
 ### Stack
 ![stack](challenges-and-data-structures/Challenges/Data Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/stackwhiteboarddone.png)
-
-
-
 ### Queue
 ![Queue](challenges-and-data-structures/Data Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/Queuewhiteboarddone.png)
 
 ### StackWithReverse
 ![StackWithReverse](challenges-and-data-structures/Data Structures/SlackAndQueueExample/StackWithReverse/whiteboardRS.png)
 
+### DeleteMiddleElement
+![DeleteMiddleElement](challenges-and-data-structures/Data Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/whiteboardmidDelete.png)
