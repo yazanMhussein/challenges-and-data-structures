@@ -1,61 +1,25 @@
 ﻿using Stack_Queue;
-
 namespace Slack_QueueExample;
-
 public class Program
-{
-    static void Main(string[] args)
-    {
-        StackWithReverse stack = new StackWithReverse();
-        stack.Push(1);
-        stack.Push(2);
-        stack.Push(3);
-        stack.Push(4);
-        stack.Push(5);
-
-        Console.WriteLine(stack); 
-        stack.ReverseStack();
-        Console.WriteLine(stack);
-
-        stack.Push(6);
-        stack.Push(7);
-        Console.WriteLine(stack); 
-        stack.ReverseStack();
-        Console.WriteLine(stack);
-        //StackExample stack = new StackExample();
-        //stack.Push(1);
-        //stack.Push(2);
-        //stack.Push(3);
-        //stack.Push(4);
-        //stack.Push(5);
-        //stack.Pop();
-        //try
-        //{
-        //    Console.WriteLine("The stack value is " + stack.Peek());
-        //}
-        //catch (Exception e)
-        //{
-        //    Console.WriteLine(e.Message);
-        //}
-        //Console.WriteLine();
-
-        //Console.WriteLine();
-        //QueueExample queue = new QueueExample();
-        //queue.Enqueue(1);
-        //queue.Enqueue(2);
-        //queue.Enqueue(3);
-        //queue.Enqueue(4);
-        //queue.Dequeue();
-        //queue.Dequeue();
-        //queue.Dequeue();
-        //queue.Dequeue();
-        //try
-        //{
-        //    Console.WriteLine("The queue value is " + queue.Peek());
-        //}
-        //catch (Exception e)
-        //{
-        //    Console.WriteLine(e.Message);
-        //}
+{   static void Main(string[] args){
+            var stack = new StackWithDeleteMiddle();
+            InitializeStack(stack);
+            DisplayStackOperation(stack, "Original Stack:");
+            stack.DeleteMiddle();
+            DisplayStackOperation(stack, "After Deleting Middle Element:");
+            stack.Push(2);
+            stack.Push(9);
+            stack.Push(11);
+            DisplayStackOperation(stack, "After Pushing More Elements:");
+            stack.DeleteMiddle();
+            DisplayStackOperation(stack, "After Deleting Middle Element Again:");
     }
-}
+    static void InitializeStack(StackWithDeleteMiddle stack) => 
+    new int[] { 7, 14, 3, 8, 5 }.ToList().ForEach(stack.Push);
+    static void DisplayStackOperation(StackExample stack, string message)
+        { Console.WriteLine(message); PrintStack(stack); }
+        static void PrintStack(StackExample stack)
+        {   var tempStack = new StackExample();
+            while (!stack.IsEmpty()) tempStack.Push(stack.Pop());
+            while (!tempStack.IsEmpty()) Console.Write($"{stack.Push(tempStack.Pop())} ");
+            Console.WriteLine();}}}}}}
