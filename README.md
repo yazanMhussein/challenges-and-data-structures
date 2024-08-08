@@ -27,3 +27,6 @@
 
 ### DeleteMiddleElement
 ![DeleteMiddleElement](challenges-and-data-structures/Data Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/whiteboardmidDelete.png)
+
+## MidStack
+![MinSlack](challenges-and-data-structures\Data Structures\SlackAndQueueExample\SlackAndQueueFristCodeC\whiteboardMinStack.png)
