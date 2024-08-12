@@ -32,4 +32,8 @@
 ![MinSlack](challenges-and-data-structures\Data Structures\SlackAndQueueExample\SlackAndQueueFristCodeC\whiteboardMinStack.png)
 
 # BinaryTree
-![]()
+
+## Binary Tree WhiteBoard
+![BinaryTreeCode](Challenges/Data Structures/Tree-Implementation/Images//BinaryTreeWhiteBoard.png)
+## Binary Search Tree WhiteBoard
+![BinarySearchTree](Challenges/Data Structures/Tree-Implementation/Images//BinarySearchTreeWhiteBoard.png)

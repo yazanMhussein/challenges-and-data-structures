@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreesCode", "TreesCode.csproj", "{0914081C-9044-4650-8BA2-3329F2AA36FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTreesCode", "..\XTreesCode\XTreesCode.csproj", "{722D1612-1BC0-4C37-8082-B236E4A4D4E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0914081C-9044-4650-8BA2-3329F2AA36FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0914081C-9044-4650-8BA2-3329F2AA36FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0914081C-9044-4650-8BA2-3329F2AA36FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722D1612-1BC0-4C37-8082-B236E4A4D4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722D1612-1BC0-4C37-8082-B236E4A4D4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722D1612-1BC0-4C37-8082-B236E4A4D4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722D1612-1BC0-4C37-8082-B236E4A4D4E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
