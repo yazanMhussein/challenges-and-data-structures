@@ -18,22 +18,22 @@
 ![Linked List Merge Sorted Lists](challenges-and-data-structures/whiteboard.png)
 
 ### Stack
-![stack](challenges-and-data-structures/Challenges/Data Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/stackwhiteboarddone.png)
+![stack](challenges-and-data-structures/Challenges/Data%20Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/stackwhiteboarddone.png)
 ### Queue
-![Queue](challenges-and-data-structures/Data Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/Queuewhiteboarddone.png)
+![Queue](challenges-and-data-structures/Data%20Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/Queuewhiteboarddone.png)
 
 ### StackWithReverse
-![StackWithReverse](challenges-and-data-structures/Data Structures/SlackAndQueueExample/StackWithReverse/whiteboardRS.png)
+![StackWithReverse](challenges-and-data-structures/Data%20Structures/SlackAndQueueExample/StackWithReverse/whiteboardRS.png)
 
 ### DeleteMiddleElement
-![DeleteMiddleElement](challenges-and-data-structures/Data Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/whiteboardmidDelete.png)
+![DeleteMiddleElement](challenges-and-data-structures/Data%20Structures/SlackAndQueueExample/SlackAndQueueFristCodeC/whiteboardmidDelete.png)
 
 ## MidStack
-![MinSlack](challenges-and-data-structures\Data Structures\SlackAndQueueExample\SlackAndQueueFristCodeC\whiteboardMinStack.png)
+![MinSlack](challenges-and-data-structures\Data%20Structures\SlackAndQueueExample\SlackAndQueueFristCodeC\whiteboardMinStack.png)
 
 # BinaryTree
 
 ## Binary Tree WhiteBoard
 ![BinaryTreeCode](Challenges/Data%20Structures/Tree-Implementation/Images/BinaryTreeWhiteBoard.png)
 ## Binary Search Tree WhiteBoard
-![BinarySearchTree](Challenges/Data Structures/Tree-Implementation/Images/BinarySearchTreeWhiteBoard.png)
+![BinarySearchTree](Challenges/Data%20Structures/Tree-Implementation/Images/BinarySearchTreeWhiteBoard.png)
