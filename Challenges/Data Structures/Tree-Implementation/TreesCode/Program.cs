@@ -9,7 +9,7 @@ namespace TreesCode
     {
         static void Main(string[] args)
         {
-            BinaryTree BTree = new BinaryTree(10);
+        BinaryTree BTree = new BinaryTree(10);
             BTree.Insert(5);
             BTree.Insert(18);
             BTree.Insert(3);
