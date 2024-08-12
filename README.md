@@ -30,3 +30,6 @@
 
 ## MidStack
 ![MinSlack](challenges-and-data-structures\Data Structures\SlackAndQueueExample\SlackAndQueueFristCodeC\whiteboardMinStack.png)
+
+# BinaryTree
+![]()
