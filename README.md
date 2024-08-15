@@ -31,9 +31,14 @@
 ## MidStack
 ![MinSlack](challenges-and-data-structures\Data%20Structures\SlackAndQueueExample\SlackAndQueueFristCodeC\whiteboardMinStack.png)
 
-# BinaryTree
+# Trees<br>
+# BinaryTree 
 
 ## Binary Tree WhiteBoard
 ![BinaryTreeCode](Challenges/Data%20Structures/Tree-Implementation/Images/BinaryTreeWhiteBoard.png)
 ## Binary Search Tree WhiteBoard
 ![BinarySearchTree](Challenges/Data%20Structures/Tree-Implementation/Images/BinarySearchTreeWhiteBoard.png)
+
+# Mirror Tree
+## Mirror Tree WhiteBoard
+![MirrorTree](Challenges/Data%20Structures/Tree-Implementation/Images/MirrorTreeWhiteBoard.png)

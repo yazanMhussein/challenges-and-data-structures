@@ -61,6 +61,16 @@ namespace TreesCode
             BSTree.Remove(7);
             Console.WriteLine("\nBST Tree Structure After Removing 7");
             BSTree.Print(BSTree.Root);
+
+            MirrorTree.ConvertToMirror(BTree);
+
+            Console.WriteLine("\nMirrored Tree In Order Traversal");
+            BTree.InOrderTraversal(BTree.Root);
+            Console.WriteLine();
+
+            Console.WriteLine("\nMirrored Tree Structure");
+            BTree.Print(BTree.Root);
+            Console.WriteLine();
         }
     }
 }
