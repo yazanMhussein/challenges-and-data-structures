@@ -42,3 +42,6 @@
 # Mirror Tree
 ## Mirror Tree WhiteBoard
 ![MirrorTree](Challenges/Data%20Structures/Tree-Implementation/Images/MirrorTreeWhiteBoard.png)
+
+# Second Max Value
+![SecondMaxValue](Challenges/Data%20Structures/Tree-Implementation/Images/whiteBoardCodeTSMF.png)

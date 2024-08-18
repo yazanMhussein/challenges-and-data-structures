@@ -23,7 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TreesCode\TreesCode.csproj" />
+    <ProjectReference Include="..\..\TreesCode\TreesCode.csproj" />
+    <ProjectReference Include="..\..\XTreesCode\XTreesCode.csproj" />
   </ItemGroup>
 
 </Project>
