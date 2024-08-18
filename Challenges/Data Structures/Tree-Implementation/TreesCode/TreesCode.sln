@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreesCode", "TreesCode.csproj", "{0914081C-9044-4650-8BA2-3329F2AA36FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreesCode", "TreesCode.csproj", "{0914081C-9044-4650-8BA2-3329F2AA36FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTreesCode", "..\XTreesCode\XTreesCode.csproj", "{722D1612-1BC0-4C37-8082-B236E4A4D4E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XTreesCode", "..\XTreesCode\XTreesCode.csproj", "{722D1612-1BC0-4C37-8082-B236E4A4D4E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTreeSecondMaxValue", "..\TreeSecondMaxValue\XTreeSecondMaxValue\XTreeSecondMaxValue.csproj", "{D2E31C82-7DE0-4F37-8BD4-E87616491E89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{722D1612-1BC0-4C37-8082-B236E4A4D4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{722D1612-1BC0-4C37-8082-B236E4A4D4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{722D1612-1BC0-4C37-8082-B236E4A4D4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E31C82-7DE0-4F37-8BD4-E87616491E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E31C82-7DE0-4F37-8BD4-E87616491E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E31C82-7DE0-4F37-8BD4-E87616491E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E31C82-7DE0-4F37-8BD4-E87616491E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
