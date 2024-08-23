@@ -100,6 +100,28 @@ namespace TreesCode
                 Print(node.Right, indent, true);
             }
         }
+
+        public int LeafSum()
+        {
+            if (Root == null)
+            {
+                throw new InvalidOperationException("Tree is empty.");
+            }
+
+            return SumOfLeafNodes(Root);
+        }
+        private int SumOfLeafNodes(TNode node)
+        {
+            if (node == null)
+            {
+                return 0;
+            }
+            if (node.Left == null && node.Right == null)
+            {
+                return node.Value;
+            }
+            return SumOfLeafNodes(node.Left) + SumOfLeafNodes(node.Right);
+        }
     }
 }
  

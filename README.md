@@ -45,3 +45,6 @@
 
 # Second Max Value
 ![SecondMaxValue](Challenges/Data%20Structures/Tree-Implementation/Images/whiteBoardCodeTSMF.png)
+
+# LeafSum  
+![SecondMaxValue](Challenges/Data%20Structures/Tree-Implementation/Images/whiteBoardTLS.png)
