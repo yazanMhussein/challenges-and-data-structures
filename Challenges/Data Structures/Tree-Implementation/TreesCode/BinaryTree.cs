@@ -122,6 +122,40 @@ namespace TreesCode
             }
             return SumOfLeafNodes(node.Left) + SumOfLeafNodes(node.Right);
         }
+        public List<int> LargestLevelValue()
+        {
+            List<int> largestValues = new List<int>();
+
+            if (Root == null)
+                return largestValues;
+
+            Queue<TNode> queue = new Queue<TNode>();
+            queue.Enqueue(Root);
+
+            while (queue.Count > 0)
+            {
+                int levelSize = queue.Count;
+                int maxLevelValue = int.MinValue;
+
+                for (int i = 0; i < levelSize; i++)
+                {
+                    TNode currentNode = queue.Dequeue();
+                    if (currentNode.Value > maxLevelValue)
+                    {
+                        maxLevelValue = currentNode.Value;
+                    }
+                    if (currentNode.Left != null)
+                    {
+                        queue.Enqueue(currentNode.Left);
+                    }
+                    if (currentNode.Right != null)
+                    {queue.Enqueue(currentNode.Right);
+                    }
+                }
+                largestValues.Add(maxLevelValue);
+            }
+            return largestValues;
+        }
     }
 }
  
