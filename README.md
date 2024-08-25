@@ -48,3 +48,6 @@
 
 # LeafSum  
 ![SecondMaxValue](Challenges/Data%20Structures/Tree-Implementation/Images/whiteBoardTLS.png)
+
+# Largest Level Value
+[whiteboardLargestLevelValue](Challenges/Data%20Structures/Tree-Implementation/Images//whiteboardLargestLevelValue.png)
