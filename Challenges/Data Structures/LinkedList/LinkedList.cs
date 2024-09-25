@@ -1,14 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace LinkedList
-{public class LinkedList
-    { public Node head;
-      public void InsertToHead(Node current)
-        {current.Next = head;
-            head = current;}
+{
+    public class LinkedList
+    {
+        public Node? head;
+
+        public LinkedList()
+        {
+            head = null;
+        }
+
+        public void InsertToHead(Node current)
+        {
+            current.Next = head;
+            head = current;
+        }
+
         public void InsertEnd(Node current)
         {
-            Node node = head;
+            Node? node = head;
             if (node == null)
             {
                 InsertToHead(current);
@@ -21,9 +37,10 @@ namespace LinkedList
             node.Next = current;
             current.Next = null;
         }
+
         public bool Includes(int data)
         {
-            Node current = head;
+            Node? current = head;
             while (current != null)
             {
                 if (current.Data == data)
@@ -44,6 +61,7 @@ namespace LinkedList
                 head = head.Next;
                 return;
             }
+
             Node current = head;
             while (current.Next != null)
             {
@@ -55,9 +73,10 @@ namespace LinkedList
                 current = current.Next;
             }
         }
+
         public void PrintList()
         {
-            Node current = head;
+            Node? current = head;
             if (head == null)
             {
                 Console.WriteLine("Linked list is empty");
@@ -69,6 +88,29 @@ namespace LinkedList
                     Console.WriteLine(current.Data);
                     current = current.Next;
                 }
+            }
+        }
+        public void Display()
+        {
+            Node? current = head;
+            if (head == null)
+            {
+                Console.WriteLine("Linked list is empty");
+            }
+            else
+            {
+                Console.Write("Head -> ");
+                while (current != null)
+                {
+                    Console.Write(current.Data);
+                    if (current.Next != null)
+                    {
+                        Console.Write(" -> ");
+                    }
+                    current = current.Next;
+                }
+                Console.WriteLine(" -> Null");
+                //Console.WriteLine($", k = {k}");
             }
         }
     }
