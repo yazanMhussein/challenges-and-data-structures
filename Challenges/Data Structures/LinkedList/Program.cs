@@ -1,33 +1,35 @@
-﻿using System;
-
-using namespace LinkedList
+﻿using System.Xml.Linq;
+using System;
+using LinkedList;
+using System.Collections.Generic;
+namespace LinkedList
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             LinkedList linkedList = new LinkedList();
-
-            
-            linkedList.InsertToHead(new Node(1));
-            linkedList.InsertToHead(new Node(2));
+            linkedList.InsertEnd(new Node(1));
+            linkedList.InsertEnd(new Node(2));
             linkedList.InsertEnd(new Node(3));
+            linkedList.InsertEnd(new Node(4));
+            linkedList.InsertEnd(new Node(5));
+            linkedList.InsertEnd(new Node(6));
 
-            
-            Console.WriteLine("Linked list contents:");
-            linkedList.PrintList();
+            Console.WriteLine("Input:");
+            linkedList.Display();
+            int k = 2;
+            Console.WriteLine($", k = {k}");
 
-            
-            Console.WriteLine("Does the linked list  include 2?");
-            Console.WriteLine(linkedList.Includes(2)); 
+            RotateLinkedList rotator = new RotateLinkedList();
+            rotator.RotateLeft(linkedList, k);
 
-            
-            linkedList.Remove(2);
-
-            
-            Console.WriteLine("is there a 2  in the Linked list after removing 2:");
-            linkedList.PrintList();
-            Console.WriteLine("does the list include 2?");
+            Console.WriteLine("Output:");
+            linkedList.Display();
         }
     }
-}
+    }
+
+
+
+
