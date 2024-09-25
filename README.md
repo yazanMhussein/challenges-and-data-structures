@@ -50,4 +50,7 @@
 ![SecondMaxValue](Challenges/Data%20Structures/Tree-Implementation/Images/whiteBoardTLS.png)
 
 # Largest Level Value
-[whiteboardLargestLevelValue](Challenges/Data%20Structures/Tree-Implementation/Images//whiteboardLargestLevelValue.png)
+[whiteboardLargestLevelValue](Challenges/Data%20Structures/Tree-Implementation/Images/whiteboardLargestLevelValue.png)
+
+# RotateLinkedList  
+![RotateLinkedList](Challenges/Data%20Structures/LinkedList/Images/RotateLinkedListWhiteboardImg.png)
