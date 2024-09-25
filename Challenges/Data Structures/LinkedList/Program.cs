@@ -15,15 +15,12 @@ namespace LinkedList
             linkedList.InsertEnd(new Node(4));
             linkedList.InsertEnd(new Node(5));
             linkedList.InsertEnd(new Node(6));
-
             Console.WriteLine("Input:");
             linkedList.Display();
             int k = 2;
             Console.WriteLine($", k = {k}");
-
             RotateLinkedList rotator = new RotateLinkedList();
             rotator.RotateLeft(linkedList, k);
-
             Console.WriteLine("Output:");
             linkedList.Display();
         }

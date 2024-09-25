@@ -110,7 +110,6 @@ namespace LinkedList
                     current = current.Next;
                 }
                 Console.WriteLine(" -> Null");
-                //Console.WriteLine($", k = {k}");
             }
         }
     }
