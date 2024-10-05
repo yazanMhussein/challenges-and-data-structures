@@ -24,7 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TreesCode\TreesCode.csproj" />
-    <ProjectReference Include="..\TreeSecondMaxValue\XTreeSecondMaxValue\XTreeSecondMaxValue.csproj" />
     <ProjectReference Include="..\XTreesCode\XTreesCode.csproj" />
   </ItemGroup>
 

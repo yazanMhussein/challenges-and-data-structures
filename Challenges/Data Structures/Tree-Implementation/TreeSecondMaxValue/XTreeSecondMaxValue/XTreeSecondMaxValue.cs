@@ -123,4 +123,5 @@ namespace TreesCode.Tests
                 Assert.Equal("3  7  5  15  25  20  10 ", output.ToString().Replace("\n", " ").Replace("\r", ""));
             }
         }
+    }
 }
