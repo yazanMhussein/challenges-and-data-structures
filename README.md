@@ -59,7 +59,7 @@
 [whiteboradRightView](Challenges/Data%20Structures/Tree-Implementation/Images/whiteboradRightView.png)
 
 # FindMaxLevelNode
-[whiteboradFindMaxLevelNode](Challenges/Data%20Structures/Tree-Implementation/Images/lab19WhiteBoard.png)
+![whiteboradFindMaxLevelNode](Challenges/Data%20Structures/Tree-Implementation/Images/lab19WhiteBoard.png)
 
 # Minimum Depth
-[whiteboradMinimumDepth](Challenges/Data%20Structures/Tree-Implementation/Images/MinimumDepthWhiteBoard.png)
+![whiteboradMinimumDepth](Challenges/Data%20Structures/Tree-Implementation/Images/MinimumDepthWhiteBoard.png)
