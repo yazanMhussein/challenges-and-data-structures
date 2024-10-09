@@ -13,17 +13,14 @@ namespace TreesCode
     {
         static void Main(string[] args)
         {
-            BinaryTree Btree = new BinaryTree(1);  // Root node
-            Btree.Root = new TNode(2);
-            Btree.Root.Left = new TNode(3);
-            Btree.Root.Right = new TNode(4);
-            Btree.Root.Left.Left = new TNode(5);
-            Btree.Root.Left.Right = new TNode(6);
-            Btree.Root.Right.Right = new TNode(7);
-            Btree.Root.Left.Left.Left = new TNode(8);
-            FindMaxLevelNodes maxLevelNodes = new FindMaxLevelNodes();
-            int maxLevel = maxLevelNodes.FindMaxLevelNode(Btree.Root); 
-            Console.WriteLine("Level with maximum nodes: " + maxLevel);
+            BinaryTree Btree = new BinaryTree(1);
+            Btree.Root.Left = new TNode(2);
+            Btree.Root.Right = new TNode(3);
+            Btree.Root.Left.Left = new TNode(4);
+            Btree.Root.Left.Right = new TNode(5);
+            MinimumDepth minDepthFinder = new MinimumDepth();
+            int minDepth = minDepthFinder.FindMinimumDepth(Btree.Root);
+            Console.WriteLine("Minimum depth: " + minDepth); 
         }
     }
 }
